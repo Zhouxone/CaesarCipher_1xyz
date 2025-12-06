@@ -19,7 +19,7 @@ shift = int(input("填一下， 你想要的偏移量"))
 def encrypt(original_text, shift_amount,mode):
 	cipher_text = ""
 	if mode == "decode":
-			shift_amount =  - shift_amount
+			shift_amount =  -shift_amount
 	
 	for letter in original_text:
 		if letter in 字母表:
